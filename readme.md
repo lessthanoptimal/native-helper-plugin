@@ -7,6 +7,13 @@ and pasting code between several projects.
 plugins {
   id "com.peterabeles.nativehelper" version "1.0.0"
 }
+
+import com.peterabeles.NativeHelper
+
+// Then to get a reasonable name for the platform invoke
+// e.g. linux-amd64
+ext.platform = NativeHelper.getPlatformName()
+
 ``` 
 
 
