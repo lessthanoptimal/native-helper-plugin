@@ -42,7 +42,7 @@ pluginBundle {
     website = 'https://github.com/lessthanoptimal/native-helper-plugin'
     vcsUrl = 'https://github.com/lessthanoptimal/native-helper-plugin'
     description = 'Auto-generates version class file using Git and Gradle'
-    tags = ['version', 'git', 'gradle','auto generate','auto code']
+    tags = ['gradle','native']
 
     plugins {
         greetingsPlugin {

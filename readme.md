@@ -15,14 +15,14 @@ plugins {
 A few changes need to be done to work off a locally installed version. In the project that will be using the plugin,
 change the plugin import statement to:
 ```groovy
-apply plugin: 'com.peterabeles.gversion'
+apply plugin: 'com.peterabeles.nativehelper'
 
 buildscript {
     repositories {
         mavenLocal()
     }
     dependencies {
-        classpath "com.peterabeles.gversion:gversion:$VERSION"
+        classpath "com.peterabeles.nativehelper:nativehelper:$VERSION"
     }
 }
 ```
